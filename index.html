@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Hollow Knight</title>
+</head>
+<body>
+    <!-- Menu -->
+    <header class="container-fluid sticky-top id="top">
+        <nav class="navbar navbar-expand-lg navbar-dark" id="mainNav"> 
+            <div class="container">
+                <a class="col-4 navbar-brand" href="./index.html"><img src="./assets/images/logowhite-hollow-knight.png" width="35%" height="auto" class="img-fluid" alt="Logo Hollow Knight Menu" /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="bi bi-list" style="font-size: 1.2em"></i>
+                </button>
+                <div class="col-8 collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="./pages/personajes.html">Personajes</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./pages/team_cherry.html">Team Cherry</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./pages/contacto.html">Contacto</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./pages/comprar.html">Comprar</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Portada -->
+        <section id="firstSectionHome">
+            <div class="container-fluid d-flex flex-column justify-content-center align-items-center p-3 h-100">
+                <div class="row">
+                    <video class="col-12 animate__animated animate__fadeInUp" src="./assets/videos/Hollow-Knight-light.mp4" type="video/mp4" autoplay muted loop alt="Hollow Knight wallpaper video"></video>
+                </div>
+            </div>
+        </section>
+
+        <!-- Conoce a los personajes -->
+        <section id="secondSectionHome">
+            <div class="container-fluid">
+                <div class="row p-5">
+                    <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center align-items-lg-start">
+                        <h1>Hollow Knight</h1>
+                        <p> Conoce a los personajes de este inframundo: <i>Hollow Knight</i>.<br><br>
+                            Debajo de la desvanecida ciudad de <i>Dirtmouth</i> duerme un vasto y antiguo reino. Muchos son atraídos bajo la superficie, en busca de riquezas, gloria o respuestas a viejos secretos.<br><br>
+                            Como el enigmático Caballero, atravesarás las profundidades, desentrañarás sus misterios y conquistarás sus males.
+                        </p>   
+                        <button class="buttonPrincipal mb-4"><a href="./pages/personajes.html">Ver más</a></button>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <img src="./assets/images/hollow-knight-personaje.webp" class="img-fluid animate__animated animate__slideInRight" alt="Hollow Knight personaje">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reviews -->
+        <section id="thirdSectionHome">
+            <h3 class="text-center">Lo que dicen los usuarios</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 text-center">
+                        <i class="bi bi-person-circle" style="font-size: 6em"></i>
+                        <h4>Donuts_1765</h4>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <p>No hay puntos negativos, solo el deseo de más!</p>
+                    </div>
+
+                    <div class="col-lg-4 text-center">
+                        <i class="bi bi-person-circle" style="font-size: 6em"></i>
+                        <h4>Flower_for_u</h4>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                        <p>Oscuro y a la vez hermoso. Me atrapó el atractivo visual de Hollow Knight, y me terminé quedando por el desafío y el combate de la trama.</p>
+                    </div>
+
+                    <div class="col-lg-4 text-center">
+                        <i class="bi bi-person-circle" style="font-size: 6em"></i>
+                        <h4>Joshua21</h4>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <p>Para mi personalmente es el mejor juego, es perfecto y me encanta. Se lo recomendaría a todos los que les gustan los juegos difíciles y frustrantes!</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Quienes somos -->
+        <section id="fourthSectionHome">
+            <div class="container-fluid">
+                <div class="row p-5">
+                    <div class="col-lg-6 order-lg-2 d-flex flex-column justify-content-center align-items-center align-items-lg-start">
+                        <h2>¿Quiénes somos?</h2>
+                        <p> Conoce al equipo.<br><br>
+                            <i>Team Cherry</i> es un desarrollador de juegos independiente en Adelaida, Australia Meridional. Su misión es construir mundos locos y emocionantes para que los jugadores exploren y conquisten.</p>   
+                        <button class="buttonPrincipal"><a href="./pages/team_cherry.html">Ver más</a></button>
+                    </div>
+
+                    <div class="col-lg-6 order-lg-1 d-flex justify-content-center" >
+                        <img src="./assets/images/team-cherry-logowhite.webp" class="img-fluid animate__animated animate__slideInLeft"  alt="Hollow Knight personaje">
+                    </div>  
+                </div>
+            </div>
+        </section>
+
+        <!-- Apartado para comprar -->
+        <section id="fifthSectionHome">
+            <div class="container-fluid d-flex flex-column justify-content-center align-items-center p-3 h-100">
+                <h2 class="text-center">¡No te lo pierdas!</h2>
+                <button class="buttonPrincipal text-center"><a href="./pages/comprar.html">Comprar</a></button>
+            </div>
+        </section>
+
+        <!-- Preguntas Frecuentes -->
+        <section id="sixthSectionHome">
+            
+            <div class="accordion accordion-flush container p-5" id="accordionFlushExample">
+
+                <div>
+                    <h2>Preguntas frecuentes</h2>
+                    <p>Para hacer tu consulta puedes contactarnos a través del formulario de contacto.</p>
+                </div>
+
+                <div class="accordion-item">
+                  <h3 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        ¿Traerán Hollow Knight a consolas o dispositivos portátiles, especialmente Wii U?
+                    </button>
+                  </h3>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne">
+                    <div class="accordion-body"><p>Nos encantaría, ¡sería un sueño hecho realidad! Por el momento, solo apuntamos a PC, Mac y Linux: desarrollar para consolas requiere mucho más dinero, esfuerzo y tiempo.<br><br>
+                        Si alcanzamos nuestro objetivo y luego lo superamos por una cantidad decente, ¡entonces es algo que vamos a intentar hacer!<br><br>
+                        ¿Quieres ver Hollow Knight en tu consola doméstica? ¿Quieres llevarlo en el bolsillo en el transporte público? ¡Ayúdenos a correr la voz y obtener suficientes fondos y apoyo para que esto suceda!</p></div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h3 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        ¿Habrá una opción de PayPal para las promesas de contribuciones?
+                    </button>
+                  </h3>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo">
+                    <div class="accordion-body"><p>Parece que algunas personas no pueden contribuir a través de Kickstarter, por lo que hemos decidido configurar una opción de PayPal.<br><br>
+                        Actualmente estamos trabajando en esto y les informaremos a todos una vez que esté listo.</p></div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h3 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      ¿Como puedo adquirir el juego?
+                    </button>
+                  </h3>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree">
+                    <div class="accordion-body"><p>Si quieres comprar Hollow Knight, puedes dirigirte al apartado <a href="./pages/comprar.html" target="_blank"> Comprar</a> de este sitio web. Desde ahí podras acceder a más información y hasta un video demo del juego.</p></div>
+                  </div>
+                </div>
+
+              </div>
+        </section>
+
+        <!-- Formulario -->
+        <section class="formulario">
+            <div class="container">
+                <div class="row">
+                    <form action="" method="post" enctype="text/plain">
+                        <h2>Formulario de contacto</h2>
+                        <p>Completa este formulario y ponte en contacto con nosotros</p>
+                        <br>
+                        <fieldset>
+                            <legend>Datos Personales</legend>
+                                <!-- Nombre -->
+                                <div>
+                                    <label for="Nombres">Nombres</label>
+                                    <input class="formulario__input" type="text" name="" id="Nombres" placeholder="Ingrese nombres">
+                                </div>
+                                <!-- Apellido -->
+                                <div>
+                                    <label for="Apellidos">Apellidos</label>
+                                    <input class="formulario__input" type="text" name="" id="Apellidos" placeholder="Ingrese apellidos">
+                                </div> 
+                                <!-- Email  -->
+                                <div>
+                                    <label for="Correo">Correo electrónico</label>
+                                    <input class="formulario__input" type="email" name="" id="Correo" placeholder="Ingrese correo">
+                                </div>
+                                <!-- Género -->
+                                <div>
+                                    <p>Género</p>
+                                    <div>
+                                        <input type="radio" name="sexo" value="femenino" checked>
+                                        <label for="">Femenino</label>
+                                    </div>
+                                    <div>
+                                        <input type="radio" name="sexo" value="masculino">
+                                        <label for="">Masculino</label>
+                                    </div>
+                                    <div>
+                                        <input type="radio" name="sexo" value="otro">
+                                        <label for="">Otro</label>
+                                    </div>
+                                </div>
+                                <!-- Fecha de nacimiento -->
+                                <div>
+                                    <label for="fechaNacimiento">Fecha de nacimiento</label>
+                                    <input class="formulario__input" type="date" name="date" id="fechaNacimiento">
+                                </div>
+                        </fieldset>
+                        <br>
+                        <fieldset>
+                            <legend>Tu mensaje</legend>
+                                <!-- Asunto -->
+                                <div>
+                                    <label for="asunto">¿Por qué nos contactas? Piensa en esto como el asunto de tu correo:</label>
+                                </div>
+                                <!-- Opciones de asunto -->
+                                <div>
+                                    <select name="" id="asunto">
+                                        <option value="buscoAsesoramiento">Busco asesoramiento</option>
+                                        <option value="tengoUnComentario">Tengo un comentario</option>
+                                        <option value="necesitoAyuda">Necesito ayuda</option>
+                                        <option value="otro">Otro</option>
+                                    </select>
+                                </div>
+                                <br>
+                                <!-- Mensaje -->
+                                <div>
+                                    <textarea class="formulario__input" name="" cols="50" rows="10" placeholder="Ingrese su mensaje"></textarea> 
+                                </div> 
+                        </fieldset>
+                        <br>
+                        <fieldset>
+                            <!-- Términos y condiciones -->
+                            <div>
+                                <p>¿Acepta los términos y condiciones?</p>
+                                <input type="checkbox" name="" id="si" value="siAcepta">
+                                <label for="si">Si</label>
+                                <input type="checkbox" name="" id="no" value="noAcepta">
+                                <label for="no">No</label>
+                            </div>
+                        </fieldset>
+                        <!-- Botones -->
+                        <div class="container">
+                            <div class="row d-flex justify-content-between">
+                                <input class="buttonReset" type="reset" name="reset" id="resret" value="Resetear">
+                                <input class="buttonPrincipal" type="submit" name="Send" id="Send" value="Enviar">    
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="container p-3">
+        <div id="footer" class="row">   
+            <ul class="reseteoListas p-3 col-8 d-flex flex-wrap justify-content-around align-items-center" >
+                <li class="nav-item p-2"><a class="nav-link" href="./pages/personajes.html">Personajes</a></li>
+                <li class="nav-item p-2"><a class="nav-link" href="./pages/team_cherry.html">Team Cherry</a></li>
+                <li class="nav-item p-2"><a class="nav-link" href="./pages/contacto.html">Contacto</a></li>
+                <li class="nav-item p-2"><a class="nav-link" href="./pages/comprar.html">Comprar</a></li>
+                <li class="nav-item p-2"><a class="nav-link" href="#top">Volver arriba</a></li>
+                <li class="nav-item p-2"><a class="nav-link" href="https://www.instagram.com/hollow.knight/?hl=es" target="_blank"><i class="bi bi-instagram"></i></a></li>
+                <li class="nav-item p-2"><a class="nav-link" href="https://es-la.facebook.com/HollowKnightGame/" target="_blank"><i class="bi bi-facebook"></i></a></li>
+                <li class="nav-item p-2"><a class="nav-link" href="https://www.youtube.com/channel/UCtnSLV8K58V5GqdaWtJ6Baw" target="_blank"><i class="bi bi-youtube"></i></a></li>
+
+            </ul> 
+            <div class="col-4 d-flex align-items-center">
+                <a class=" d-flex justify-content-end" href="./index.html"><img src="./assets/images/logowhite-hollow-knight.png" alt="Logo Hollow Knight" class="img-fluid" width="35%" height="auto"></a>
+            </div>
+        </div>       
+    </footer>
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
