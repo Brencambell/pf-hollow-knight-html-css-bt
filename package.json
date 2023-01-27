@@ -1,10 +1,12 @@
 {
   "name": "pf-cambellotti",
   "version": "1.0.0",
-  "description": "Proyecto Final nº2 by Brenda Cambellotti - Coderhouse",
+  "description": "Proyecto Final by Brenda Cambellotti - Coderhouse",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "repository": {
     "type": "git",
