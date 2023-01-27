@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../assets/images/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <title>Hollow Knight</title>
@@ -20,7 +21,7 @@
             <div class="container">
                 <a class="col-4 navbar-brand" href="../index.html"><img src="../assets/images/logowhite-hollow-knight.png" width="35%" height="auto" class="img-fluid" alt="Logo Hollow Knight Menu" /></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="bi bi-list" style="font-size: 1.2em"></i>
+                    <i class="bi bi-plus" style="font-size: 1.2em"></i>
                 </button>
                 <div class="col-8 collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto py-4 py-lg-0">
@@ -37,9 +38,9 @@
     <main>
         <!-- Portada -->
         <section>
-            <div class="container-fluid">
+            <div class="container-fluid" data-aos="fade-up">
                 <div class="row">
-                    <img src="../assets/images/hollow-knight-allpersonajes.webp" class="img-fluid animate__animated animate__fadeInUp" alt="Imagen de todos los personajes de Hollow Knight">
+                    <img src="../assets/images/hollow-knight-allpersonajes.webp" class="img-fluid" alt="Imagen de todos los personajes de Hollow Knight">
                 </div>
             </div>
         </section>
@@ -58,7 +59,7 @@
                         </p>
                     </div>
 
-                    <div class="col-xl-8 order-xl-2">
+                    <div class="col-xl-8 order-xl-2" data-aos="fade-left">
                         <img src="../assets/images/1personaje_caballero.webp" class="img-fluid animate__animated animate__slideInRight w-100" alt="Hollow Knight personaje del caballero">
                     </div>
                 </div>
@@ -78,7 +79,7 @@
                         </p>
                     </div>
 
-                    <div class="col-xl-8 order-xl-1">
+                    <div class="col-xl-8 order-xl-1" data-aos="fade-right">
                         <img src="../assets/images/2personaje_hornet.webp" class="img-fluid animate__animated animate__slideInLeft w-100" alt="Hornet personaje">
                     </div>
                 </div>
@@ -97,7 +98,7 @@
                         </p>
                     </div>
 
-                    <div class="col-xl-8 order-xl-2">
+                    <div class="col-xl-8 order-xl-2" data-aos="fade-left">
                         <img src="../assets/images/3personaje_cornifer.webp" class="img-fluid animate__animated animate__slideInRight w-100" alt="Cornifer personaje">
                     </div>
                 </div>
@@ -116,7 +117,7 @@
                         </p>
                     </div>
 
-                    <div class="col-xl-8 order-xl-1">
+                    <div class="col-xl-8 order-xl-1" data-aos="fade-right">
                         <img src="../assets/images/4personaje_iselda.webp" class="img-fluid animate__animated animate__slideInLeft w-100" alt="Iselda personaje">
                     </div>
                 </div>
@@ -146,5 +147,6 @@
     </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script> <script>AOS.init();</script>
 </body>
 </html>
