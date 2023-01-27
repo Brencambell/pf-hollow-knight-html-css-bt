@@ -1,0 +1,19 @@
+{
+  "name": "pf-cambellotti",
+  "version": "1.0.0",
+  "description": "Proyecto Final nº2 by Brenda Cambellotti - Coderhouse",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brencambell/pf-cambellotti.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Brencambell/pf-cambellotti/issues"
+  },
+  "homepage": "https://github.com/Brencambell/pf-cambellotti#readme"
+}
