@@ -24,7 +24,7 @@
                     <i class="bi bi-plus" style="font-size: 1.2em"></i>
                 </button>
                 <div class="col-8 collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto py-4 py-lg-0">
+                    <ul class="navbar-nav ms-auto px-4 py-4 position-sticky text-end d-flex justify-content-end">
                         <li class="nav-item"><a class="nav-link" href="./personajes.html">Personajes</a></li>
                         <li class="nav-item"><a class="nav-link" href="./team_cherry.html">Team Cherry</a></li>
                         <li class="nav-item"><a class="nav-link" href="./contacto.html">Contacto</a></li>
@@ -44,7 +44,7 @@
         </div>
 
         <!-- Formulario -->
-        <section class="formulario" data-aos="fade-up">
+        <section class="formulario p-5 bg-gradient" data-aos="fade-up">
             <div class="container">
                 <div class="row">
                     <form action="" method="post" enctype="text/plain">
@@ -58,19 +58,22 @@
                                     <label for="Nombres">Nombres</label>
                                     <input class="formulario__input" type="text" name="" id="Nombres" placeholder="Ingrese nombres">
                                 </div>
+                                <br>
                                 <!-- Apellido -->
                                 <div>
                                     <label for="Apellidos">Apellidos</label>
                                     <input class="formulario__input" type="text" name="" id="Apellidos" placeholder="Ingrese apellidos">
-                                </div> 
+                                </div>
+                                <br>
                                 <!-- Email  -->
                                 <div>
                                     <label for="Correo">Correo electrónico</label>
                                     <input class="formulario__input" type="email" name="" id="Correo" placeholder="Ingrese correo">
                                 </div>
+                                <br>
                                 <!-- Género -->
                                 <div>
-                                    <p>Género</p>
+                                    <label for="Genero">Género</label>
                                     <div>
                                         <input type="radio" name="sexo" value="femenino" checked>
                                         <label for="">Femenino</label>
@@ -84,6 +87,7 @@
                                         <label for="">Otro</label>
                                     </div>
                                 </div>
+                                <br>
                                 <!-- Fecha de nacimiento -->
                                 <div>
                                     <label for="fechaNacimiento">Fecha de nacimiento</label>
