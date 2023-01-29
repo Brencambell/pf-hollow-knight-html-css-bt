@@ -2,11 +2,10 @@
   background-image: linear-gradient(to right bottom, #121315, #121a28, #11203b, #11254f, #172a63);
 
     form{
-      padding: 20px;
       border-radius: 1rem;
       background-color: map-get($paletaColores, "blanco");
       color: map-get($paletaColores, "negro");
-      overflow: hidden;
+      // overflow: hidden;
 
       fieldset{
           border: 2px solid map-get($paletaColores, "azul");

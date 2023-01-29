@@ -62,11 +62,9 @@ main #sixthSectionHome .accordion-item {
 .formulario {
   background-image: linear-gradient(to right bottom, #121315, #121a28, #11203b, #11254f, #172a63); }
   .formulario form {
-    padding: 20px;
     border-radius: 1rem;
     background-color: white;
-    color: black;
-    overflow: hidden; }
+    color: black; }
     .formulario form fieldset {
       border: 2px solid #0b2d9f;
       border-radius: 3px;
