@@ -183,6 +183,13 @@ fieldset legend {
   }
 }
 
+@media only screen and (max-width: 768px) {
+  #mainNav {
+    height: 10vh;
+  }
+}
+
+
 /* Fondo con gradiente */
 .bg-gradient {
   background-image: linear-gradient(to right bottom, #121315, #121a28, #11203b, #11254f, #172a63);

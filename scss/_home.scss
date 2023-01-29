@@ -1,0 +1,29 @@
+main{
+    #thirdSectionHome{
+        background-color: rgb(255, 255, 255);
+        color: black;
+        margin: 10px;
+        padding: 60px;
+    }
+    #fifthSectionHome{
+        background-image: url(../assets/images/hollow_knight_cornisa.webp);
+        height: 900px;
+        background-size: cover;
+        background-position: center;
+    }
+    #sixthSectionHome{
+        .accordion-item{
+            background-color: #000000;
+            color: white;
+            .accordion-button{
+                background-color: rgb(255, 255, 255);
+                color: black;
+                border: solid 2px #0b2d9f;
+                margin: 1px;
+                &:hover{
+                    background-color:rgb(179, 179, 179);
+                }
+            }
+        }
+    }
+}

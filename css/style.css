@@ -23,6 +23,9 @@ body {
 header #mainNav {
   background-color: black;
   height: 20vh; }
+  @media only screen and (max-width: 768px) {
+    header #mainNav {
+      height: 10vh; } }
   header #mainNav .navbar-toggler {
     color: white; }
   header #mainNav #navbarResponsive .navbar-nav {
@@ -33,6 +36,89 @@ header #mainNav {
       font-weight: bold;
       font-size: 1.2em; }
 
+main #thirdSectionHome {
+  background-color: white;
+  color: black;
+  margin: 10px;
+  padding: 60px; }
+
+main #fifthSectionHome {
+  background-image: url(../assets/images/hollow_knight_cornisa.webp);
+  height: 900px;
+  background-size: cover;
+  background-position: center; }
+
+main #sixthSectionHome .accordion-item {
+  background-color: #000000;
+  color: white; }
+  main #sixthSectionHome .accordion-item .accordion-button {
+    background-color: white;
+    color: black;
+    border: solid 2px #0b2d9f;
+    margin: 1px; }
+    main #sixthSectionHome .accordion-item .accordion-button:hover {
+      background-color: #b3b3b3; }
+
+.formulario form {
+  width: 50%;
+  height: auto;
+  margin: 50px auto;
+  padding: 50px;
+  border-radius: 1rem;
+  background-color: white;
+  color: #000000;
+  overflow: hidden; }
+  .formulario form fieldset {
+    border: 2px solid #0b2d9f;
+    border-radius: 3px;
+    box-shadow: none;
+    padding: 10px; }
+    .formulario form fieldset legend {
+      font-weight: bold; }
+    .formulario form fieldset div .formulario__input {
+      font-size: 0.8rem;
+      padding: 10px;
+      outline: none;
+      width: 100%;
+      resize: none; }
+
+.iframeContainer {
+  width: 100%;
+  height: 100vh; }
+  @media only screen and (max-width: 768px) {
+    .iframeContainer {
+      height: 50vh; } }
+
+.round-container {
+  background-color: white;
+  color: #000000;
+  border-radius: 1rem; }
+
 footer #footer .reseteoListas {
   list-style-type: none;
   text-decoration: none; }
+
+.button, .buttonPrincipal, .buttonReset {
+  font-family: "TrajanPro-Regular";
+  width: 150px;
+  height: 60px;
+  margin-top: 20px;
+  background-color: white;
+  border: 1px solid black; }
+
+.buttonPrincipal {
+  font-weight: bold;
+  border-radius: 10px;
+  transition: all 0.2s ease-in-out; }
+  .buttonPrincipal a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold; }
+  .buttonPrincipal:hover {
+    border: 3px solid #0b2d9f;
+    transform: scale(1.1); }
+
+.buttonReset {
+  border: none;
+  background-color: transparent;
+  color: #0b2d9f; }
