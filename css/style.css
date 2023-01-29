@@ -62,7 +62,7 @@ main #sixthSectionHome .accordion-item {
 .formulario {
   background-image: linear-gradient(to right bottom, #121315, #121a28, #11203b, #11254f, #172a63); }
   .formulario form {
-    padding: 50px;
+    padding: 20px;
     border-radius: 1rem;
     background-color: white;
     color: black;

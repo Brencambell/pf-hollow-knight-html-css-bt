@@ -2,10 +2,7 @@
   background-image: linear-gradient(to right bottom, #121315, #121a28, #11203b, #11254f, #172a63);
 
     form{
-      // width: 50%;
-      // height: auto;
-      // margin: 50px auto;
-      padding: 50px;
+      padding: 20px;
       border-radius: 1rem;
       background-color: map-get($paletaColores, "blanco");
       color: map-get($paletaColores, "negro");
