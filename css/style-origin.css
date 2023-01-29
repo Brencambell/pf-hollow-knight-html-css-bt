@@ -53,6 +53,11 @@ body {
   }
 }
 
+.navbar-nav {
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+}
+
 .navbar-nav li a {
   color: white;
   font-weight: bold;
@@ -62,12 +67,6 @@ body {
 .navbar-toggler {
   color: rgb(255, 255, 255);
 }
-
-.navbar-nav {
-  background-color: rgb(0, 0, 0);
-  width: 100%;
-}
-
 
 /* Botones */
 .buttonPrincipal {
@@ -197,3 +196,8 @@ fieldset legend {
   border-radius: 1rem;
 }
 
+
+
+/* .bg-gradient {
+  background-image: linear-gradient(to right bottom, map-get($gradient-colors, "color-1"), map-get($gradient-colors, "color-2"), map-get($gradient-colors, "color-3"), map-get($gradient-colors, "color-4"), map-get($gradient-colors, "color-5"));
+} */

@@ -1,0 +1,38 @@
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box; }
+
+@font-face {
+  font-family: "TrajanPro-Regular";
+  src: url("../assets/fonts/TrajanPro-Regular.ttf"); }
+
+body {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  color: white;
+  background-color: black;
+  height: 100%; }
+  body h1, body h2 {
+    font-family: "TrajanPro-Regular"; }
+
+::selection {
+  background-color: #0b2d9f;
+  color: white; }
+
+header #mainNav {
+  background-color: black;
+  height: 20vh; }
+  header #mainNav .navbar-toggler {
+    color: white; }
+  header #mainNav #navbarResponsive .navbar-nav {
+    background-color: black;
+    width: 100%; }
+    header #mainNav #navbarResponsive .navbar-nav li a {
+      color: white;
+      font-weight: bold;
+      font-size: 1.2em; }
+
+footer #footer .reseteoListas {
+  list-style-type: none;
+  text-decoration: none; }

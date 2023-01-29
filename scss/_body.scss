@@ -1,0 +1,17 @@
+  body {
+    font-family: $font-family-texto;
+    font-weight: 300;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+
+    h1, h2{
+        font-family: $font-family-titular;
+    }
+  }
+
+  ::selection {
+    background-color: #0b2d9f;
+    color: white;
+  }
+  
