@@ -15,10 +15,10 @@ Mira el **Deployment** para testear el sitio en tu navegador.
 
 _Sigue este paso a paso para testar el prototipo:_
 
-* Desde el respoitorio, haz click en **github-pages**, que se encuentra a la derecha de la pantalla, debajo del titular _Environments_ 
+* Desde el respositorio, haz click en **github-pages**, que se encuentra a la derecha de la pantalla, debajo del titular _Environments_ 
 * Se abrirá una nueva pantalla con el historial de los _Deployments_ del repositorio
 * Haz click en el botón **View deployment**
-* ¡Y listo! Ya puesdes testear el sitio web desde todos tus dispoositivos
+* ¡Y listo! Ya puedes testear el sitio web desde todos tus dispoositivos
 
 
 ## Construido con 🛠️
