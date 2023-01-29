@@ -1,8 +1,8 @@
   body {
     font-family: $font-family-texto;
     font-weight: 300;
-    color: white;
-    background-color: rgb(0, 0, 0);
+    color: map-get($paletaColores, "blanco");
+    background-color: map-get($paletaColores, "negro");
     height: 100%;
 
     h1, h2{
@@ -11,7 +11,7 @@
   }
 
   ::selection {
-    background-color: #0b2d9f;
-    color: white;
+    background-color: map-get($paletaColores, "azul");
+    color: map-get($paletaColores, "blanco");
   }
   

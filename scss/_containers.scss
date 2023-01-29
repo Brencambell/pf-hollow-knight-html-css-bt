@@ -7,7 +7,7 @@
   }
 
   .round-container {
-    background-color: rgb(255, 255, 255);
-    color:#000000;
+    background-color: map-get($paletaColores, "blanco");
+    color: map-get($paletaColores, "negro");
     border-radius: 1rem;
   }

@@ -1,22 +1,22 @@
 header{
     #mainNav{
-        background-color: rgb(0, 0, 0);
+        background-color: map-get($paletaColores, "negro");
         height: 20vh;
         @include responsive (768px){
             height: 10vh;
           }
 
         .navbar-toggler{
-            color: rgb(255, 255, 255);
+            color: map-get($paletaColores, "blanco");
         }
 
         #navbarResponsive{
             .navbar-nav{
-                background-color: rgb(0, 0, 0);
+                background-color: map-get($paletaColores, "negro");
                 width: 100%;
                 
                 li a{
-                    color: white;
+                    color: map-get($paletaColores, "blanco");
                     font-weight: bold;
                     font-size: 1.2em;
                 }

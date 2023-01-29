@@ -1,7 +1,7 @@
 main{
     #thirdSectionHome{
-        background-color: rgb(255, 255, 255);
-        color: black;
+        background-color: map-get($paletaColores, "blanco");
+        color: map-get($paletaColores, "negro");
         margin: 10px;
         padding: 60px;
     }
@@ -13,15 +13,15 @@ main{
     }
     #sixthSectionHome{
         .accordion-item{
-            background-color: #000000;
-            color: white;
+            background-color: map-get($paletaColores, "negro");
+            color: map-get($paletaColores, "blanco");
             .accordion-button{
-                background-color: rgb(255, 255, 255);
-                color: black;
-                border: solid 2px #0b2d9f;
+                background-color: map-get($paletaColores, "blanco");
+                color: map-get($paletaColores, "negro");
+                border: solid 2px map-get($paletaColores, "azul");
                 margin: 1px;
                 &:hover{
-                    background-color:rgb(179, 179, 179);
+                    background-color: map-get($paletaColores, "gris");
                 }
             }
         }

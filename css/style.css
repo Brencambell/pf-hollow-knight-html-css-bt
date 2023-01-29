@@ -49,7 +49,7 @@ main #fifthSectionHome {
   background-position: center; }
 
 main #sixthSectionHome .accordion-item {
-  background-color: #000000;
+  background-color: black;
   color: white; }
   main #sixthSectionHome .accordion-item .accordion-button {
     background-color: white;
@@ -68,7 +68,7 @@ main #sixthSectionHome .accordion-item {
     padding: 50px;
     border-radius: 1rem;
     background-color: white;
-    color: #000000;
+    color: black;
     overflow: hidden; }
     .formulario form fieldset {
       border: 2px solid #0b2d9f;
@@ -93,7 +93,7 @@ main #sixthSectionHome .accordion-item {
 
 .round-container {
   background-color: white;
-  color: #000000;
+  color: black;
   border-radius: 1rem; }
 
 footer #footer .reseteoListas {

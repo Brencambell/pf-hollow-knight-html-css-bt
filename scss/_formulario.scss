@@ -1,18 +1,18 @@
 .formulario{
   background-image: linear-gradient(to right bottom, #121315, #121a28, #11203b, #11254f, #172a63);
-  
+
     form{
       width: 50%;
       height: auto;
       margin: 50px auto;
       padding: 50px;
       border-radius: 1rem;
-      background-color: rgb(255, 255, 255);
-      color: #000000;
+      background-color: map-get($paletaColores, "blanco");
+      color: map-get($paletaColores, "negro");
       overflow: hidden;
 
       fieldset{
-          border: 2px solid #0b2d9f;
+          border: 2px solid map-get($paletaColores, "azul");
           border-radius: 3px;
           box-shadow: none;
           padding: 10px;

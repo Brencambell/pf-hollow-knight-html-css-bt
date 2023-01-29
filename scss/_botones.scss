@@ -3,8 +3,8 @@
     width: 150px;
     height: 60px;
     margin-top: 20px;
-    background-color: white;
-    border: 1px solid black;
+    background-color: map-get($paletaColores, "blanco");
+    border: 1px solid map-get($paletaColores, "negro");
 }
 
 .buttonPrincipal{
@@ -19,7 +19,7 @@
         font-weight: bold;
     }
         &:hover{
-        border: 3px solid #0b2d9f;
+        border: 3px solid map-get($paletaColores, "azul");
         transform: scale(1.1);
         }
  }
@@ -28,5 +28,5 @@
     @extend .button;
     border: none;
     background-color: transparent;
-    color: #0b2d9f;
+    color: map-get($paletaColores, "azul");
  }
