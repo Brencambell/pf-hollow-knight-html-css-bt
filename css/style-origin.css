@@ -47,12 +47,6 @@ body {
   height: 20vh;
 }
 
-@media only screen and (max-width: 768px) {
-  #mainNav {
-    height: 10vh;
-  }
-}
-
 .navbar-nav {
   background-color: rgb(0, 0, 0);
   width: 100%;
@@ -202,9 +196,3 @@ fieldset legend {
   color:#000000;
   border-radius: 1rem;
 }
-
-
-
-/* .bg-gradient {
-  background-image: linear-gradient(to right bottom, map-get($gradient-colors, "color-1"), map-get($gradient-colors, "color-2"), map-get($gradient-colors, "color-3"), map-get($gradient-colors, "color-4"), map-get($gradient-colors, "color-5"));
-} */
