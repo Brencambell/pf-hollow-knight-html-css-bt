@@ -47,94 +47,96 @@
         <section class="formulario p-5" data-aos="fade-up">
             <div class="container">
                 <div class="row">
-                    <form action="" method="post" enctype="text/plain">
-                        <h2>Formulario de contacto</h2>
-                        <p>Completa este formulario y ponte en contacto con nosotros</p>
-                        <br>
-                        <fieldset>
-                            <legend>Datos Personales</legend>
-                                <!-- Nombre -->
-                                <div>
-                                    <label for="Nombres">Nombres</label>
-                                    <input class="formulario__input" type="text" name="" id="Nombres" placeholder="Ingrese nombres">
-                                </div>
-                                <br>
-                                <!-- Apellido -->
-                                <div>
-                                    <label for="Apellidos">Apellidos</label>
-                                    <input class="formulario__input" type="text" name="" id="Apellidos" placeholder="Ingrese apellidos">
-                                </div>
-                                <br>
-                                <!-- Email  -->
-                                <div>
-                                    <label for="Correo">Correo electrónico</label>
-                                    <input class="formulario__input" type="email" name="" id="Correo" placeholder="Ingrese correo">
-                                </div>
-                                <br>
-                                <!-- Género -->
-                                <div>
-                                    <label for="Genero">Género</label>
+                    <div>
+                        <form class="col-lg-6 col-md-8 col-sm-12 mx-auto p-5 my-5" action="" method="post" enctype="text/plain">
+                            <h2>Formulario de contacto</h2>
+                            <p>Completa este formulario y ponte en contacto con nosotros</p>
+                            <br>
+                            <fieldset>
+                                <legend>Datos Personales</legend>
+                                    <!-- Nombre -->
                                     <div>
-                                        <input type="radio" name="sexo" value="femenino" checked>
-                                        <label for="">Femenino</label>
+                                        <label for="Nombres">Nombres</label>
+                                        <input class="formulario__input" type="text" name="" id="Nombres" placeholder="Ingrese nombres">
                                     </div>
+                                    <br>
+                                    <!-- Apellido -->
                                     <div>
-                                        <input type="radio" name="sexo" value="masculino">
-                                        <label for="">Masculino</label>
+                                        <label for="Apellidos">Apellidos</label>
+                                        <input class="formulario__input" type="text" name="" id="Apellidos" placeholder="Ingrese apellidos">
                                     </div>
+                                    <br>
+                                    <!-- Email  -->
                                     <div>
-                                        <input type="radio" name="sexo" value="otro">
-                                        <label for="">Otro</label>
+                                        <label for="Correo">Correo electrónico</label>
+                                        <input class="formulario__input" type="email" name="" id="Correo" placeholder="Ingrese correo">
                                     </div>
-                                </div>
-                                <br>
-                                <!-- Fecha de nacimiento -->
+                                    <br>
+                                    <!-- Género -->
+                                    <div>
+                                        <label for="Genero">Género</label>
+                                        <div>
+                                            <input type="radio" name="sexo" value="femenino" checked>
+                                            <label for="">Femenino</label>
+                                        </div>
+                                        <div>
+                                            <input type="radio" name="sexo" value="masculino">
+                                            <label for="">Masculino</label>
+                                        </div>
+                                        <div>
+                                            <input type="radio" name="sexo" value="otro">
+                                            <label for="">Otro</label>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <!-- Fecha de nacimiento -->
+                                    <div>
+                                        <label for="fechaNacimiento">Fecha de nacimiento</label>
+                                        <input class="formulario__input" type="date" name="date" id="fechaNacimiento">
+                                    </div>
+                            </fieldset>
+                            <br>
+                            <fieldset>
+                                <legend>Tu mensaje</legend>
+                                    <!-- Asunto -->
+                                    <div>
+                                        <label for="asunto">¿Por qué nos contactas? Piensa en esto como el asunto de tu correo:</label>
+                                    </div>
+                                    <!-- Opciones de asunto -->
+                                    <div>
+                                        <select name="" id="asunto">
+                                            <option value="buscoAsesoramiento">Busco asesoramiento</option>
+                                            <option value="tengoUnComentario">Tengo un comentario</option>
+                                            <option value="necesitoAyuda">Necesito ayuda</option>
+                                            <option value="otro">Otro</option>
+                                        </select>
+                                    </div>
+                                    <br>
+                                    <!-- Mensaje -->
+                                    <div>
+                                        <textarea class="formulario__input" name="" cols="50" rows="10" placeholder="Ingrese su mensaje"></textarea> 
+                                    </div> 
+                            </fieldset>
+                            <br>
+                            <fieldset>
+                                <!-- Términos y condiciones -->
                                 <div>
-                                    <label for="fechaNacimiento">Fecha de nacimiento</label>
-                                    <input class="formulario__input" type="date" name="date" id="fechaNacimiento">
+                                    <p>¿Acepta los términos y condiciones?</p>
+                                    <input type="checkbox" name="" id="si" value="siAcepta">
+                                    <label for="si">Si</label>
+                                    <input type="checkbox" name="" id="no" value="noAcepta">
+                                    <label for="no">No</label>
                                 </div>
-                        </fieldset>
-                        <br>
-                        <fieldset>
-                            <legend>Tu mensaje</legend>
-                                <!-- Asunto -->
-                                <div>
-                                    <label for="asunto">¿Por qué nos contactas? Piensa en esto como el asunto de tu correo:</label>
+                            </fieldset>
+                            <!-- Botones -->
+                            <div class="container">
+                                <div class="row d-flex justify-content-between">
+                                    <input class="buttonReset" type="reset" name="reset" id="resret" value="Resetear">
+                                    <input class="buttonPrincipal" type="submit" name="Send" id="Send" value="Enviar">    
                                 </div>
-                                <!-- Opciones de asunto -->
-                                <div>
-                                    <select name="" id="asunto">
-                                        <option value="buscoAsesoramiento">Busco asesoramiento</option>
-                                        <option value="tengoUnComentario">Tengo un comentario</option>
-                                        <option value="necesitoAyuda">Necesito ayuda</option>
-                                        <option value="otro">Otro</option>
-                                    </select>
-                                </div>
-                                <br>
-                                <!-- Mensaje -->
-                                <div>
-                                    <textarea class="formulario__input" name="" cols="50" rows="10" placeholder="Ingrese su mensaje"></textarea> 
-                                </div> 
-                        </fieldset>
-                        <br>
-                        <fieldset>
-                            <!-- Términos y condiciones -->
-                            <div>
-                                <p>¿Acepta los términos y condiciones?</p>
-                                <input type="checkbox" name="" id="si" value="siAcepta">
-                                <label for="si">Si</label>
-                                <input type="checkbox" name="" id="no" value="noAcepta">
-                                <label for="no">No</label>
                             </div>
-                        </fieldset>
-                        <!-- Botones -->
-                        <div class="container">
-                            <div class="row d-flex justify-content-between">
-                                <input class="buttonReset" type="reset" name="reset" id="resret" value="Resetear">
-                                <input class="buttonPrincipal" type="submit" name="Send" id="Send" value="Enviar">    
-                            </div>
-                        </div>
-                    </form>
+                        </form>
+                    </div>
                 </div>
             </div>
         </section>
